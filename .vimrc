@@ -62,3 +62,10 @@ set wrapscan
 set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+
+nnoremap S :w<CR>
+nnoremap Q :q!<CR>
+
+inoremap { {}<Left>
+inoremap ( ()<Left>
+inoremap < <><Left>
