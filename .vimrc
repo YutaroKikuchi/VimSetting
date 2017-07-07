@@ -39,14 +39,12 @@ nnoremap <S-h>  ^
 nnoremap <S-l>  $
 
 " Tab系
-" 不可視文字を可視化(タブが「▸-」と表示される)
-set list listchars=tab:\▸\-
 " Tab文字を半角スペースにする
 set expandtab
 " 行頭以外のTab文字の表示幅（スペースいくつ分）
 set tabstop=2
 " 行頭でのTab文字の表示幅
-set shiftwidth=2
+set shiftwidth=4
 
 
 " 検索系
@@ -68,4 +66,4 @@ nnoremap Q :q!<CR>
 
 inoremap { {}<Left>
 inoremap ( ()<Left>
-inoremap < <><Left>
+inoremap " ""<Left>
