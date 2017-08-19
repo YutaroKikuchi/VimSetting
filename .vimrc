@@ -44,7 +44,7 @@ set expandtab
 " 行頭以外のTab文字の表示幅（スペースいくつ分）
 set tabstop=2
 " 行頭でのTab文字の表示幅
-set shiftwidth=4
+set shiftwidth=2
 
 
 " 検索系
@@ -64,6 +64,7 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 nnoremap S :w<CR>
 nnoremap Q :q!<CR>
 
-inoremap { {}<Left>
-inoremap ( ()<Left>
-inoremap " ""<Left>
+nnoremap <C-Down> <C-w>j
+nnoremap <C-Up> <C-w>k
+nnoremap <C-Left> <C-w>h
+nnoremap <C-Right> <C-w>l
